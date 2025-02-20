@@ -10,4 +10,13 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'gtm-ga-demo';
+  counter = 0;
+
+   increment(){
+    this.counter += 1;
+   }
+
+   reset(){
+    this.counter = 0;
+   }
 }
